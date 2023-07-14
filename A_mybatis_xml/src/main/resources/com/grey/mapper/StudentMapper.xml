@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.grey.mapper.StudentMapper">
+
+    <select id="selectStu" resultType="com.grey.pojo.Student">
+        select * from student where id = #{id}
+    </select>
+
+
+    <insert id="insertStu">
+        INSERT INTO
+        `mybatis`.`student` (`id`, `name`)
+        VALUES (#{id},#{name});
+    </insert>
+
+    <update id="updateStu">
+        UPDATE student
+        SET name=#{name}
+        WHERE id=#{id}
+    </update>
+
+    <delete id="deleteStu">
+        DELETE FROM student
+        WHERE id=#{id}
+    </delete>
+
+</mapper>
