@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2470e6d-0928-4630-84ff-718d5ecf35ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../A_mybatis_helloworld/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A_mybatis_helloworld/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../A_mybatis_helloworld/src/test/java/com/grey/tests/LogOutputTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/grey/mapper/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/grey/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/grey/mapper/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/grey/test/JDBCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/grey/test/MyBatisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A_mybatis_helloworld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../A_mybatis_helloworld/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A_mybatis_helloworld/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../A_mybatis_helloworld/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +57,7 @@
   </component>
   <component name="RunManager" selected="JUnit.MyBatisTest.test01">
     <configuration name="MyBatisTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="A_mybatis_xml" />
+      <module name="B_mybatis_xml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.grey.test.*" />
@@ -89,7 +73,7 @@
       </method>
     </configuration>
     <configuration name="MyBatisTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="A_mybatis_xml" />
+      <module name="B_mybatis_xml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.grey.test.*" />
@@ -100,6 +84,19 @@
       <option name="MAIN_CLASS_NAME" value="com.grey.test.MyBatisTest" />
       <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="B_mybatis_xml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="B_mybatis_xml" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
