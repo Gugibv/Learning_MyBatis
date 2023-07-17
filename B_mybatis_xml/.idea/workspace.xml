@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d2470e6d-0928-4630-84ff-718d5ecf35ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/grey/test/JDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/grey/test/JDBCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/grey/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/grey/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/grey/test/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/grey/test/MyBatisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/grey/pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTest.test01">
+  <component name="RunManager" selected="JUnit.MyBatisTest.insert">
     <configuration name="JDBCTest.testjdbc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B_mybatis_xml" />
       <extension name="coverage">
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyBatisTest.insert" />
         <item itemvalue="JUnit.MyBatisTest.test01" />
         <item itemvalue="JUnit.JDBCTest.testjdbc" />
         <item itemvalue="JUnit.MyBatisTest" />
         <item itemvalue="JUnit.MyBatisTest.test02" />
-        <item itemvalue="JUnit.MyBatisTest.insert" />
       </list>
     </recent_temporary>
   </component>

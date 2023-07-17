@@ -88,7 +88,7 @@ public class MyBatisTest {
         SqlSession sqlSession = sqlSessionFactory.openSession();
         StudentMapper mapper = sqlSession.getMapper(StudentMapper.class);
         Student emp =new Student();
-        emp.setId("6");
+      //  emp.setId("6");
         emp.setName("李四");
         try {
             Integer result = mapper.insertStu(emp);

@@ -10,7 +10,11 @@
     </select>
 
 
-    <insert id="insertStu">
+    <insert id="insertStu"  >
+        <selectKey order="BEFORE" keyProperty="id" resultType="string"> <!--selectKey可以在增删改之前或后执行-->
+            select max(id)+1 from student
+        </selectKey>
+
         INSERT INTO
         `mybatis`.`student` (`id`, `name`)
         VALUES (#{id},#{name});
