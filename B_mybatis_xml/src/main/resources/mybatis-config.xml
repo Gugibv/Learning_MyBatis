@@ -3,22 +3,51 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    <environments default="development">
+
+    <!-- 用来控制mybatis运行时的行为，是mybatis中的重要配置 -->
+    <settings>
+        <!-- 当往数据库插入数据某个数值为null 时映射到数据库的类型
+             默认： OTHER mysql 时可以识别出other类型
+                   NULL  如果时oracle 一定要设置成null
+                   VARCHAR 当属性值为空时为数据库设置为一个空字符串-->
+        <setting name="jdbcTypeForNull" value="OTHER"/>
+
+    </settings>
+    
+    <!-- 引入外部配置文件，类似于 Spring中的 property-placeholder -->
+    <!-- <properties resource="db.properties"></properties>-->
+     
+    
+    
+    <environments default="development">  <!--配置连接哪个数据库，通过default指定ids-->
         <environment id="development">
-            <transactionManager type="JDBC"/>
-            <dataSource type="POOLED">
+            <transactionManager type="JDBC"/> <!-- 事务管理类型 JDBC:使用jdbc的事务管理 MANAGED 不运用事务 -->
+            <dataSource type="POOLED"> <!-- 数据源 POOLED:使用mybatis连接池 UNPOOLED:不使用连接池 JNDI:JNDI连接池，可以tomcat用 -->
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
                 <property name="url" value="jdbc:mysql://localhost:3306/mybatis"/>
                 <property name="username" value="root"/>
                 <property name="password" value="rootroot"/>
             </dataSource>
         </environment>
-    </environments>
-<!--    <mappers>
-        <mapper resource="com.grey.mapper.StudentMapper.xml"/>
-    </mappers>-->  <!--test01-->
 
+        <!--<environment id="test">  ....        </environment>-->
+    </environments>
+
+
+    
+    
+    
     <mappers>
+        <!--4种映射方式：
+             1. <mapper resource  设置MapperXml 这种方式适用根据statementId 进行操作
+             2. <mapper class     设置Mapper接口 这种方式适用接口绑定的方式
+             3. <mapper url       适用磁盘的绝对路径（基本不用）
+             4. <package          根据包设置包下面所有的Mapper接口，这种方式适用接口绑定的方式和注解
+         -->
         <mapper class="com.grey.mapper.StudentMapper"></mapper>
+
+       <!-- <package name="com.grey.mapper"/>-->
     </mappers>
+
+
 </configuration>
