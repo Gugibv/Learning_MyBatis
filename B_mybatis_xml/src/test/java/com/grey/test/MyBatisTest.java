@@ -17,6 +17,7 @@ import java.sql.SQLException;
 
 
 public class MyBatisTest {
+    Logger LOGGER= LoggerFactory.getLogger(this.getClass());
 
     SqlSessionFactory sqlSessionFactory;
     @Before
@@ -60,7 +61,7 @@ public class MyBatisTest {
         }
     }
 
-    Logger LOGGER= LoggerFactory.getLogger(this.getClass());
+
     /**
      * 日志级别
      * TRACE < DEBUG < INFO < WARN < ERROR。
@@ -87,6 +88,7 @@ public class MyBatisTest {
         SqlSession sqlSession = sqlSessionFactory.openSession();
         StudentMapper mapper = sqlSession.getMapper(StudentMapper.class);
         Student emp =new Student();
+        emp.setId("6");
         emp.setName("李四");
         try {
             Integer result = mapper.insertStu(emp);

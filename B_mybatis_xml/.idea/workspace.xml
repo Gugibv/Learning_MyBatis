@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2470e6d-0928-4630-84ff-718d5ecf35ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/grey/test/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/grey/test/MyBatisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/grey/Repository/git_repository/Learning_MyBatis/A_mybatis_xml/src/test/java/com/grey/test",
+    "last_opened_file_path": "/Users/grey/Repository/git_repository/Learning_MyBatis/B_mybatis_xml/src/main/resources",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.16110474",
@@ -49,13 +51,44 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/com/grey/test" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/grey/test" />
       <recent name="$PROJECT_DIR$/src/main/java/com/grey/mapper" />
       <recent name="$PROJECT_DIR$/src/main/java/com/grey/pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTest.test01">
+  <component name="RunManager" selected="JUnit.MyBatisTest">
+    <configuration name="MyBatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B_mybatis_xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grey.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.grey.test" />
+      <option name="MAIN_CLASS_NAME" value="com.grey.test.MyBatisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B_mybatis_xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grey.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.grey.test" />
+      <option name="MAIN_CLASS_NAME" value="com.grey.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="insert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyBatisTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B_mybatis_xml" />
       <extension name="coverage">
@@ -88,23 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="B_mybatis_xml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="B_mybatis_xml" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyBatisTest.test01" />
+        <item itemvalue="JUnit.MyBatisTest" />
         <item itemvalue="JUnit.MyBatisTest.test02" />
+        <item itemvalue="JUnit.MyBatisTest.insert" />
+        <item itemvalue="JUnit.MyBatisTest.test01" />
       </list>
     </recent_temporary>
   </component>
