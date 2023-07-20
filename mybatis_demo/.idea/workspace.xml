@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eade470a-c8c7-451f-8ffb-79d4347e675a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/src/main/java/com/grey/mapper/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/src/main/java/com/grey/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/src/main/resources/com/grey/mapper/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/src/main/resources/mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/src/test/java/com/grey/tests/LogOutputTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/src/test/java/com/grey/tests/MybatisCRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/src/test/java/com/grey/tests/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/src/main/java/com/grey/mapper/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/src/main/java/com/grey/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/src/main/resources/com/grey/mapper/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/src/test/java/com/grey/test/JDBCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/src/test/java/com/grey/test/MyBatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../B_mybatis_xml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../B_mybatis_xml/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="eade470a-c8c7-451f-8ffb-79d4347e675a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
