@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eade470a-c8c7-451f-8ffb-79d4347e675a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/src/main/java/com/grey/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/src/main/java/com/grey/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/src/main/resources/com/grey/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/src/main/resources/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/src/test/java/com/grey/tests/LogOutputTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/src/test/java/com/grey/tests/MybatisCRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a_mybatis_helloword/src/test/java/com/grey/tests/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/src/main/java/com/grey/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/src/main/java/com/grey/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/src/main/resources/com/grey/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/src/test/java/com/grey/test/JDBCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b_mybatis_xml/src/test/java/com/grey/test/MyBatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B_mybatis_xml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../B_mybatis_xml/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Install/Maven/apache-maven-3.8.6" />
+        <option name="userSettingsFile" value="$USER_HOME$/Install/Maven/apache-maven-3.8.6/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2SpSj0o4wtfs4YeBHkpzqxl1L0x" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/grey/Repository/git_repository/Learning_MyBatis/mybatis_demo/b_mybatis_xml/src",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.16110474",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/b_mybatis_xml/src" />
+      <recent name="$PROJECT_DIR$/b_mybatis_xml/src/main" />
+      <recent name="$PROJECT_DIR$/a_mybatis_helloword/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyBatisTest.test01">
+    <configuration name="MyBatisTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="b_mybatis_xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grey.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.grey.test" />
+      <option name="MAIN_CLASS_NAME" value="com.grey.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="a_mybatis_helloword" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grey.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.grey.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.grey.tests.MybatisTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyBatisTest.test01" />
+        <item itemvalue="JUnit.MybatisTest.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eade470a-c8c7-451f-8ffb-79d4347e675a" name="Changes" comment="" />
+      <created>1689842162634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689842162634</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -48,7 +48,7 @@ public class MybatisTest {
      * @throws IOException
      */
     @Test
-    public void test01() throws IOException {
+    public void test01(){
 
         try (SqlSession session = sqlSessionFactory.openSession()) {
             Student student = (Student) session.selectOne("selectStu", 101);
